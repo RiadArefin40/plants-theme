@@ -8,12 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@babel/runtime':
+        specifier: ^7.27.6
+        version: 7.27.6
       '@salla.sa/twilight':
-        specifier: ^2.14.124
-        version: 2.14.135(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
+        specifier: ^2.14.157
+        version: 2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
       '@salla.sa/twilight-tailwind-theme':
-        specifier: ^2.14.124
-        version: 2.14.135
+        specifier: ^2.14.157
+        version: 2.14.158
       animejs:
         specifier: ^3.2.1
         version: 3.2.2
@@ -40,8 +43,8 @@ importers:
         specifier: ^7.16.5
         version: 7.26.9(@babel/core@7.26.9)
       '@salla.sa/twilight-components':
-        specifier: ^2.14.130
-        version: 2.14.135(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
+        specifier: ^2.14.157
+        version: 2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
       '@tailwindcss/forms':
         specifier: ^0.5.2
         version: 0.5.10(tailwindcss@3.4.17)
@@ -606,8 +609,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0 || ^8.0.0-0 <8.0.0
 
-  '@babel/runtime@7.26.9':
-    resolution: {integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==}
+  '@babel/runtime@7.27.6':
+    resolution: {integrity: sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.26.9':
@@ -961,20 +964,20 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@salla.sa/applepay@2.14.135':
-    resolution: {integrity: sha512-EU7gahUyNrhwpTM+b9jJu5gyRbpf6wbC2S9lW4myYqSPUKUvAfoQIOnwei6r8wS+G9NkSSAQHvsD48n6fTOrCA==}
+  '@salla.sa/applepay@2.14.158':
+    resolution: {integrity: sha512-P25Y0xXwV+4NowDG1gaiknQKKpy6WE7obniz0owk2RcQMVoXo3kt9ANb3oxvQ2hUTbh0yCB/cBknXsJ4cg+jhQ==}
 
-  '@salla.sa/base@2.14.135':
-    resolution: {integrity: sha512-cHb9tPPTVHZBk2NLOyoUez9nw/0ZJa+kvhNxhTo4mu1z9gpcNhdqLdYCaIknJcKQ5O3udwGFQDmjHsmkVmPE6g==}
+  '@salla.sa/base@2.14.158':
+    resolution: {integrity: sha512-MDRl0mcd/x7fO5xmoF0m7tFKdnIJDxY+oMrX10HR68kephMoUp+eOO6y9HU0XaE4RCeL+o1V7gyQL7LuR/YAMA==}
 
-  '@salla.sa/twilight-components@2.14.135':
-    resolution: {integrity: sha512-YtTInhVA+XoeM4WeKVG64DKjdPBIlvbIPOMLcz5SYUqfWXrAkPbTAhpErDkig2M3nrqIx2XpJs1GtIW51Qy2Jw==}
+  '@salla.sa/twilight-components@2.14.158':
+    resolution: {integrity: sha512-lzNYWfBVYjWQQFWeMWcVOGgSqy437mndBBTsm7Lt2QEQTxTjL+vNrUvm1vBNPem+mvQS3dfboegZ7SIjOJNK3w==}
 
-  '@salla.sa/twilight-tailwind-theme@2.14.135':
-    resolution: {integrity: sha512-nmhap/G2cBKMqKpBsuWCZ7RUekJnjIDLUDOIi/FbsKu92Zq1eKBSWAHf5PNc8Q/kr/fNDhaiFh727v4B0ikZdg==}
+  '@salla.sa/twilight-tailwind-theme@2.14.158':
+    resolution: {integrity: sha512-WWHELSydDqKzaYK/vyRsxY4BBt1FWOW0YlMROqcJe22jOBKUF6DOpi+KKtmeNODIJoHpRWy+YUF3Bp3Gcc7+mw==}
 
-  '@salla.sa/twilight@2.14.135':
-    resolution: {integrity: sha512-49+gadOlQPOciypAD6UwpyaP6YcRdUBKucmIw0EYGzeUsJTuOiyMIQwJvxihk3WkH0m1psqdF0wIkk8CUqAEdw==}
+  '@salla.sa/twilight@2.14.158':
+    resolution: {integrity: sha512-vmeP0i67enl51rWgGvDwufaSIBfdHnXYw2MEL/raQ3F0xKv6B/F/AT7kr68MgMaznO+WTFIje03nuQaIoRBYGQ==}
     peerDependencies:
       webpack: ^4 || ^5
 
@@ -1174,8 +1177,8 @@ packages:
   axios@0.23.0:
     resolution: {integrity: sha512-NmvAE4i0YAv5cKq8zlDoPd1VLKAqX5oLuZKs8xkJa4qi6RGn0uhCYFjWtHHC9EM/MwOwYWOs53W+V0aqEXq1sg==}
 
-  axios@0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
+  axios@1.10.0:
+    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
 
   babel-loader-exclude-node-modules-except@1.2.1:
     resolution: {integrity: sha512-kp/JcdRhhYKprE9fYRquyasqtrdRKXqBj0BVGB9OYxEzdBTpD/8e6w1K1gafyHgntj7f9JxLhi4phOrnCMKD6Q==}
@@ -1793,8 +1796,9 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  jwt-decode@3.1.2:
-    resolution: {integrity: sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==}
+  jwt-decode@4.0.0:
+    resolution: {integrity: sha512-+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA==}
+    engines: {node: '>=18'}
 
   kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
@@ -2252,6 +2256,9 @@ packages:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -2279,9 +2286,6 @@ packages:
 
   regenerate@1.4.2:
     resolution: {integrity: sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==}
-
-  regenerator-runtime@0.14.1:
-    resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
 
   regenerator-transform@0.15.2:
     resolution: {integrity: sha512-hfMp2BoF0qOk3uc5V20ALGDS2ddjQaLrdl7xrGXvAIow7qeWRM2VA2HuCHkUKk9slq3VwEwLNK3DFBqDfPGYtg==}
@@ -3297,9 +3301,7 @@ snapshots:
       '@babel/types': 7.26.9
       esutils: 2.0.3
 
-  '@babel/runtime@7.26.9':
-    dependencies:
-      regenerator-runtime: 0.14.1
+  '@babel/runtime@7.27.6': {}
 
   '@babel/template@7.26.9':
     dependencies:
@@ -3631,24 +3633,24 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@salla.sa/applepay@2.14.135':
+  '@salla.sa/applepay@2.14.158':
     dependencies:
       axios: 0.23.0
     transitivePeerDependencies:
       - debug
 
-  '@salla.sa/base@2.14.135':
+  '@salla.sa/base@2.14.158':
     dependencies:
       '@types/applepayjs': 14.0.9
       eventemitter2: 6.4.9
       lodash: 4.17.21
       store: 2.0.12
 
-  '@salla.sa/twilight-components@2.14.135(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
+  '@salla.sa/twilight-components@2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
     dependencies:
-      '@salla.sa/applepay': 2.14.135
-      '@salla.sa/twilight': 2.14.135(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
-      '@salla.sa/twilight-tailwind-theme': 2.14.135
+      '@salla.sa/applepay': 2.14.158
+      '@salla.sa/twilight': 2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)
+      '@salla.sa/twilight-tailwind-theme': 2.14.158
       '@types/node': 20.17.50
       animejs: 3.2.2
       filepond: 4.32.7
@@ -3672,15 +3674,15 @@ snapshots:
       - supports-color
       - webpack
 
-  '@salla.sa/twilight-tailwind-theme@2.14.135': {}
+  '@salla.sa/twilight-tailwind-theme@2.14.158': {}
 
-  '@salla.sa/twilight@2.14.135(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
+  '@salla.sa/twilight@2.14.158(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)(webpack@5.99.9)':
     dependencies:
       '@jitsu/js': 1.10.0(@jitsu/protocols@1.10.0)(@types/dlv@1.1.5)
-      '@salla.sa/base': 2.14.135
-      axios: 0.27.2
+      '@salla.sa/base': 2.14.158
+      axios: 1.10.0
       infinite-scroll: 4.0.1
-      jwt-decode: 3.1.2
+      jwt-decode: 4.0.0
       lang.js: 1.1.14
       webpack: 5.99.9(webpack-cli@5.1.4)
       websocket: 1.0.35
@@ -3901,10 +3903,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  axios@0.27.2:
+  axios@1.10.0:
     dependencies:
       follow-redirects: 1.15.9
       form-data: 4.0.2
+      proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
 
@@ -4479,7 +4482,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  jwt-decode@3.1.2: {}
+  jwt-decode@4.0.0: {}
 
   kind-of@6.0.3: {}
 
@@ -4923,6 +4926,8 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  proxy-from-env@1.1.0: {}
+
   queue-microtask@1.2.3: {}
 
   randombytes@2.1.0:
@@ -4949,11 +4954,9 @@ snapshots:
 
   regenerate@1.4.2: {}
 
-  regenerator-runtime@0.14.1: {}
-
   regenerator-transform@0.15.2:
     dependencies:
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.27.6
 
   regexpu-core@6.2.0:
     dependencies:
